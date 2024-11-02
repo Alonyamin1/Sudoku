@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Master</title>
+    <link rel="stylesheet" href="sudoku.css">
+    <script src="sudoku.js"></script>
+</head>
+<body>
+    <div>
+
+        <h1>Sudoku</h1>
+        <p>**To generate a random game hit the refresh button <br>
+        **To solve the puzzle hit the solve button <br>
+        **watch out not to get too many errors!</p>
+
+    </div>
+    
+    <hr>
+
+    <h2 id="errors">0</h2>
+    <div id="board"></div>
+
+    <br>
+    <div id="digits"></div>
+    <button id="solveButton" style="vertical-align:middle" onclick="solvePuzzle()"><span>Solve </span></button>
+    <div id="fireworks-container"></div>
+
+</body>
+</html>
